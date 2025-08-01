@@ -67,7 +67,7 @@ export const Footer = () => {
 
         <div className="mt-12 pt-8 border-t border-light-orange/20 text-center">
           <p className="flex items-center justify-center gap-2">
-            Made with <Heart className="w-4 h-4" /> by MindBuddy Team
+            Made by SID
           </p>
         </div>
       </div>
