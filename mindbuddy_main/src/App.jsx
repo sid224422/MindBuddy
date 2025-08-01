@@ -6,6 +6,7 @@ import { LoadingSpinner } from './components/LoadingSpinner';
 const Home = lazy(() => import('./pages/Home').then(module => ({ default: module.Home })));
 const Chat = lazy(() => import('./pages/Chat').then(module => ({ default: module.Chat })));
 const Refresh = lazy(() => import('./pages/Refresh').then(module => ({ default: module.Refresh })));
+const Tools = lazy(() => import('./pages/Tools').then(module => ({ default: module.Tools })));
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/refresh" element={<Refresh />} />
           <Route path="/chat" element={<Chat />} />
+          <Route path="/tools" element={<Tools />} />
         </Routes>
       </Suspense>
     </Router>

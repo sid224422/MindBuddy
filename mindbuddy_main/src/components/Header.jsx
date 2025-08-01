@@ -8,6 +8,7 @@ export const Header = () => {
 
   const navItems = [
     { name: 'Chat', path: '/chat' },
+    { name: 'Tools', path: '/tools' },
     { name: 'Resources', path: '/resources' },
     { name: 'Blog', path: '/blog' },
     {
