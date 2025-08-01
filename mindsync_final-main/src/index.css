@@ -1,0 +1,7 @@
+@import './styles/index.css';
+
+/* Optimize performance */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
